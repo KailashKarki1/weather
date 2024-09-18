@@ -1,0 +1,47 @@
+/* src/Weather.css */  
+
+.weather-container {  
+    background: linear-gradient(to bottom right, #a0c6e7, #e7f3fe);  
+    border-radius: 10px;  
+    padding: 20px;  
+    max-width: 1000px;  
+    margin: auto;  
+    text-align: center;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  
+  }  
+  
+  .current-weather {  
+    margin: 20px 0;  
+  }  
+  
+  .current-details {  
+    background: #f0f8ff; /* Light background for current details */  
+    border-radius: 8px;  
+    padding: 10px;  
+    margin-top: 10px;  
+  }  
+  
+  .forecast-container {  
+    display: flex;   
+    justify-content: space-around;   
+    flex-wrap: wrap;  
+  }  
+  
+  .forecast-day {  
+    background: #ffffff;  
+    border-radius: 8px;  
+    padding: 10px;  
+    margin: 10px;  
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
+    max-width: 170px; /* Adjust as necessary */  
+  }  
+  
+  .forecast-day img {  
+    width: 50px;  
+    height: auto;  
+  }  
+  
+  .forecast-day p {  
+    margin: 5px 0;  
+    font-size: 14px; /* Adjust font size for details */  
+  }
